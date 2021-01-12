@@ -5,4 +5,4 @@ for ch in s:
         lis.append('$')
     else:
         lis.append (ch)
-print(''.join(str(i) for i in lis))
+print(" ".join(str(i)for i in lis))
