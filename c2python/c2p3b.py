@@ -1,3 +1,4 @@
+#((b) Square of N numbers
 num=int(input("Enter the number:"))
 lis1=[]
 lim=num+1

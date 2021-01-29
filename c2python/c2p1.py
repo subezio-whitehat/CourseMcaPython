@@ -1,7 +1,8 @@
-final=int(input("Enter the year"))
-current=int(input("\nEnter the current year"))
-x=current
-while(x<=final):
-    if((x%4==0) and (x%100!=0)) or (x%400==0):
-        print("\nleap year=:",x)
-    x=x+1
+#1.Print your address
+address={
+    "Name": "Subin Sabu\n",
+    "Housename":"Valiyaparamhbil\n",
+    "Place[p.o]":"Moonnilavu\n",
+    "Pin Code":"686-586\n",
+}
+print(address)

@@ -1,10 +1,4 @@
-n1=int(input("\nEnter the nuumber 1:"))
-n2=int(input("\nEnter the nuumber 2:"))
-n3=int(input("\nEnter the nuumber 3:"))
-if (n1>n2) and (n1>n3):
-    print("\n %d is the largest number!!"%(n1))
-elif(n2>n1) and (n2>n3):
-     print("\n %d is the largest number!!"%(n2))
-else:
-    print("\n %d is the largest number !!"%(n3))
-
+#10. Accept the radius from user and find area of circle.
+r=int(input("\nEnter the radius of circle:"))
+area=3.14*r*r
+print("\nThe area of the circle with radius %d is %f!" %(r,area))

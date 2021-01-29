@@ -1,3 +1,4 @@
+#(c) Form a list of vowels selected from a given word
 word=input("Enter the word:")
 vowel=[]
 i=0

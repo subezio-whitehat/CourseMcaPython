@@ -1,9 +1,6 @@
-lst = []  
-n = int(input("Enter size of list or number of elements thet you wants to enter : ")) 
-for i in range(0, n): 
-    elem= int(input())
-    if(elem>=100):
-        lst.append('over')
-    else:
-        lst.append(elem) 
-print(lst) 
+#4. Count the occurrences of each word in a line of text.
+line=input("\nEnter the line of string:")
+subs=input("\nEnter the word to count:")
+count=line.count(subs)
+print("\nThe count of given word in given line is:",count)
+

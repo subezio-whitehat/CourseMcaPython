@@ -1,3 +1,11 @@
-s=input("\nEnter a string:")
-newstr=s[-1] + s[1:-1] + s[0]
-print(newstr)
+#8. Get a string from an input string where all occurrences of first character replaced with
+#‘$’, except first character.
+#eg: onion -> oni$n
+lis =[]
+s=input("Enter String:")
+for ch in s:
+    if ch in lis:
+        lis.append('$')
+    else:
+        lis.append (ch)
+print(" ".join(str(i)for i in lis))

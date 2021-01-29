@@ -1,3 +1,5 @@
-r=int(input("\nEnter the radius of circle:"))
-area=3.14*r*r
-print("\nThe area of the circle with radius %d is %f!" %(r,area))
+#9. Create a string from given string where first and last characters exchanged. [eg: python -
+#> nythop]
+s=input("\nEnter a string:")
+newstr=s[-1] + s[1:-1] + s[0]
+print(newstr)
