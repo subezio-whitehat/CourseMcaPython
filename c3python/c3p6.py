@@ -1,4 +1,4 @@
-
+#6.Count the number of characters (character frequency) in a string. 
 def charcount():
     st=input("\nEnter the string:")
     count=0
