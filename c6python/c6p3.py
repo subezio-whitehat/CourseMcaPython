@@ -1,3 +1,4 @@
+#Write a Python program to read each row from a given csv file and print a list of strings
 f=open("D:\csv.csv","r")
 f_contents=f.readlines()
 list1=list(f_contents)
